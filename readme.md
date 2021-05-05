@@ -34,3 +34,9 @@ localhost:~$ ethercat slaves
 10  0:10  PREOP  +  EL7411 BLDC Terminal with incremental encoder/Hall, 50 V DC, 4.
 
 ```
+
+## Change prio on ecmc_rt thread
+Example: change prio to 80 and fifo for pid 1670 (ecmc_rt in this case)
+```
+localhost:~$ chrt -f --pid 80 1670
+```
