@@ -47,3 +47,7 @@ localhost:~$ uname -r
 Linux localhost 4.14.0-fpgaioc #1 SMP PREEMPT Fri Apr 9 14:16:59 UTC 2021 armv7l armv7l armv7l GNU/Linux
 
 ```
+
+## Notes
+
+ethercat sdos hangs
